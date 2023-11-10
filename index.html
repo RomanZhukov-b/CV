@@ -4,42 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roman Zhukov CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="113.jpg" width="200" alt="Тут моя фотка">
-            </td>
-            <td>
+        <div class="container">
+                <div class="info">    
+                <img class="avatar" src="113.jpg" width="150" alt="Тут моя фотка">
                 <h1>Роман Жуков</h1>
-                <p><em>Я начинающий <strong>Web developer</strong></em></p>
-                <p><strong>Мои интересы:</strong>Программирование, видеоигры, фильмы-сериалы, спорт, книги, автомобили...</p>
-            </td>
-        </tr>
-    </table>
-    
-  
-    <hr>
+                <p>Я начинающий <strong>Frontend Developer</strong></p>
+                <p><strong>Мои интересы:</strong> Программирование, видеоигры, фильмы-сериалы, спорт, книги, автомобили...</p>
 
-    <h2>Мои социалиные сети</h2>
-    <ul>
-        <li><a target="_blank" href="https://github.com/RomanZhukov-b"><strong>Github</strong></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/roman_zhuckoff/"><strong>Instagram</strong></a></li>
-    </ul>
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Быстрая езда на машине</li>
-        <li>Сборка ПК</li>
-        <li>Играть в видеоигры</li>
-        <li>Готовить вкусную еду</li>
-        </ol>
+                <h4>Мои социалиные сети</h4>
+               
+                    <a target="_blank" href="https://github.com/RomanZhukov-b"><strong>Github</strong></a>
+                    |
+                    <a target="_blank" href="https://www.instagram.com/roman_zhuckoff/"><strong>Instagram</strong></a>
+                              
+         </div>  
+          
+       
+    <div class="card">
+       <h2>Мои хобби</h2>
+       <ol>
+         <li>Быстрая езда на машине</li>
+         <li>Сборка ПК</li>
+         <li>Играть в видеоигры</li>
+         <li>Готовить вкусную еду</li>
+       </ol>
+    </div>
+   
 
-
-
-        <h2>Пройденные мной курсы</h2>
-        <a href="course.html">Просмотреть курсы</a>
-
+    <div class="card">
+            <h2>Пройденные мной курсы</h2>
+            <a href="course.html">Просмотреть курсы</a>
+    </div>
+        
+    <div class="card">
         <h2>Опыт работы</h2>
         <table>
             <thead>
@@ -63,10 +63,12 @@
             </tbody>
             <tfoot></tfoot>
         </table>
-        <hr>
-
+    </div>   
+        
 
         <h2>Связаться со мной</h2>
+        <p><em>Мой контактный номер:</em> <strong>+375292620923</strong></p>
+        <p>Или оставте ваши контакты для связи.</p>
         <form action="/">
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите ваше имя...">
@@ -80,8 +82,7 @@
             <br>
             <input type="submit" value="Связаться!">   
         </form>
-        
-        
-        <hr>
+                        
+    </div>
 </body>
 </html>
