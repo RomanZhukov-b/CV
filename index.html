@@ -10,6 +10,7 @@
         <div class="container">
                 <div class="info">    
                 <img class="avatar" src="113.jpg" width="150" alt="Тут моя фотка">
+                <div class="info-text">
                 <h1>Роман Жуков</h1>
                 <p>Я начинающий <strong>Frontend Developer</strong></p>
                 <p><strong>Мои интересы:</strong> Программирование, видеоигры, фильмы-сериалы, спорт, книги, автомобили...</p>
@@ -19,13 +20,13 @@
                     <a target="_blank" href="https://github.com/RomanZhukov-b"><strong>Github</strong></a>
                     |
                     <a target="_blank" href="https://www.instagram.com/roman_zhuckoff/"><strong>Instagram</strong></a>
-                              
+                </div>              
          </div>  
           
        
-    <div class="card">
+    <div class="card bg-yellow">
        <h2>Мои хобби</h2>
-       <ol>
+       <ol class="list">
          <li>Быстрая езда на машине</li>
          <li>Сборка ПК</li>
          <li>Играть в видеоигры</li>
@@ -34,22 +35,27 @@
     </div>
    
 
-    <div class="card">
+    <div class="card bg-green">
             <h2>Пройденные мной курсы</h2>
-            <a href="course.html">Просмотреть курсы</a>
+    <ul class="link-list">       
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=71s">HTML для Начинающих - Практический Курс</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=fcMcf_4PjfI">JavaScript c Нуля - Курс для начинающих с практикой [2023]</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=SpCUuyZZTp8">CSS для Начинающих - Практический Курс</a></li>
+        <li><a target="_blank" href="https://stepik.org/lesson/172508/step/1?auth=login&unit=148015">STEPIK: Веб-разработка для начинающих: HTML и CSS</a></li>
+    </ul>
     </div>
         
-    <div class="card">
+    <div class="card bg-red">
         <h2>Опыт работы</h2>
-        <table>
-            <thead>
+        <table class="table">
+            
                 <tr>
                     <th>Компания</th>
                     <th>Должность</th>
                     <th>Год</th>
                 </tr>
-            </thead>
-            <tbody>
+            
+            
                 <tr>
                     <th>Минрайтеплосеть</th>
                     <th>Электромонтер</th>
@@ -58,31 +64,40 @@
                 <tr>
                     <th>Амкодор-Можа</th>
                     <th>Электромонтер</th>
-                    <th>2022-2024</th>
+                    <th>2022-NOW</th>
                 </tr>
-            </tbody>
-            <tfoot></tfoot>
+            
+            
         </table>
     </div>   
         
+        <div class="contact">
 
         <h2>Связаться со мной</h2>
+        <form action="/">
+        <div class="form-group">
         <p><em>Мой контактный номер:</em> <strong>+375292620923</strong></p>
         <p>Или оставте ваши контакты для связи.</p>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите ваше имя...">
-            <br> 
-            <label for="Email">Email:</label>
-            <input type="text" id="Email" placeholder="Введите  Email...">
-            <br>
+        </div>
+          
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите ваше имя...">
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" placeholder="Введите  Email...">
+            </div>
+            
+        <div class="form-group">
             <label for="text">Ваше сообщение:</label>
-            <br>
+
             <textarea name="text" id="" cols="25" rows="3"></textarea>
-            <br>
-            <input type="submit" value="Связаться!">   
+        </div>
+        
+                <input class="btn" type="submit" value="Связаться!">  
+                    
         </form>
-                        
+    </div>             
     </div>
 </body>
 </html>
